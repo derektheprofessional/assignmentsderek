@@ -1,13 +1,14 @@
 INTEGER          :: x
 CHARACTER(LEN=1) :: Grade
 
-IF (x < 50) THEN
-   Grade = 'F'
-ELSE IF (x < 60) THEN
+IF (x <= 60) {
+   return Grade = 'F';
+   }
+ELSE IF (x <= 70) THEN
    Grade = 'D'
-ELSE IF (x < 70) THEN
+ELSE IF (x <= 80) THEN
    Grade = 'C'
-ELSE IF (x < 80) THEN
+ELSE IF (x <= 90) THEN
    Grade = 'B'
 ELSE
    Grade = 'A'
