@@ -1,0 +1,9 @@
+c.log - a wrapper around console.log to cater for IE not being able to handle it.
+console.log - sends messages to the console
+invocations-invoking - calling a function
+grunt - a javascript task runner
+refactoring - making code simpler
+assert - to throw an error if the expression passed into the function is false
+functions - lines of code that we can reuse
+pass function - passing a function in as a parameter in another function (craaaazy!)
+comparissons - operators that are used to compare values, like >, <, and =.
